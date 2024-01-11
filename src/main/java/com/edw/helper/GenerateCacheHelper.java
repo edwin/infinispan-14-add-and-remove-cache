@@ -26,7 +26,7 @@ public class GenerateCacheHelper {
     @Autowired
     private RemoteCacheManager cacheManager;
 
-    List<String> listOfUuid = new ArrayList<>();
+    private List<String> listOfUuid = new ArrayList<>();
 
     @PostConstruct
     public void prepareData () {
